@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Alamofire"
-  s.version      = "1.1.1"
+  s.version      = "1.1.0"
   s.summary      = "Elegant HTTP Networking in Swift"
 
   s.description  = <<-DESC
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Source", "Source/"
+  s.source_files  = "Source", "Source/*"
   s.exclude_files = "Source/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
